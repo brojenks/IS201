@@ -1,0 +1,65 @@
+/*
+Here's a helpful list of 4 of the styles I changed for the website. 
+1.	About Me: P
+2.	About Me: .bold on “Contact Info”
+3.	About Me: h1 with with a new color
+4.	Index: h2 with color and other things
+5.	Index & About Me: a is changed
+*/
+
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: size 25px;
+    color:rgb(0, 0, 0);
+}
+
+h1{
+    font: size 25px;
+    color:rgb(242, 248, 255);
+    text-shadow: 
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+}
+
+p{
+    font-family: Geneva, Tahoma, sans-serif;
+    color: rgb(32, 32, 32);
+
+}
+
+.bold{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.expanded{
+    font-stretch: ultra-expanded;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 26.25%;
+    height: 0;
+}
+
+.iframe-container ifram{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 70%;
+}
+
+a:hover {
+    color:#a83000;
+}
+
+a {
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    text-decoration: none;
+}
